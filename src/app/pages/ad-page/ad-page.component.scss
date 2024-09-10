@@ -1,0 +1,13 @@
+.ad-page-block{
+    display: flex;
+    justify-content: space-between;
+}
+.ad-page-block-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 24px;
+}
+.ad-page-block-discription{
+    display: flex;
+    flex-direction: column;
+}

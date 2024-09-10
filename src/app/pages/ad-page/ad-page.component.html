@@ -1,0 +1,18 @@
+<app-header></app-header>
+<app-main-head></app-main-head>
+<div class="container">
+    <app-breadcrumb></app-breadcrumb>
+    <div class="ad-page-block">
+ <div class="ad-page-block-img">
+        <app-main-img></app-main-img>
+        <div *ngFor= "let advert of adverts">
+            <app-mini-img [advert]="advert"></app-mini-img>
+        </div>
+    </div>
+    <div class="ad-page-block-discription">
+        <app-ad-discription></app-ad-discription>
+    </div>
+    </div>
+   
+</div>
+

@@ -1,0 +1,19 @@
+.mini-img-carousel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+   margin-right: 10px;
+ 
+    img{
+        width: 120px;
+        height: 84px;
+        margin-right:12px;
+        
+    }
+    }
+    img:hover{
+        border-style: solid ;
+        border-radius: 4px;
+        border-color: #3B82F6;
+    }

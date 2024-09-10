@@ -1,0 +1,49 @@
+
+.ad-card{
+    width: 306px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    .ad-card-img{
+        display: flex;
+        width: 306px;
+        height: 240px;
+        border-radius: 2px;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    .ad-card-name{
+        display: flex;
+        font-size: 18px;
+        color: #3B82F6;
+        padding: 0 0 0 0;
+        margin: 8px 0 0 0;
+        font-family: "Inter", sans-serif;
+
+    }
+    .ad-card-price{
+        display:flex ;
+        font-size: 18px;
+        color: #1E293B;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        font-family: "Inter", sans-serif;
+    }
+    .ad-card-adress{
+        display: flex;
+        font-size: 14px;
+        color: #64748B;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        font-family: "Inter", sans-serif;
+    }
+    .ad-cadr-date{
+        display: flex;
+        font-size: 14px;
+        color: #64748B;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        font-family: "Inter", sans-serif;
+    }
+}
+

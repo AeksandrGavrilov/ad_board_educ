@@ -1,0 +1,60 @@
+.ad-discription-price{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #1E293B;
+    margin-bottom: 16px;
+}
+.ad-discription-phone {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 416px;
+height: 68px;
+margin-bottom: 40px;
+background-color: #3B82F6;
+border-style: none;
+border-radius: 4px;
+padding: 12px;
+font-family: "Inter", sans-serif;
+font-size: 20px;
+color: #fff;
+    svg{
+        padding-right: 5px;
+    }
+}
+.ad-discription-adress{
+    margin-bottom: 32px;
+    .ad-discription-adress-title{
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        color: #1E293B;
+        margin-bottom: 8px;
+    }
+    .ad-discription-adress-sity{
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        color: #1E293B;
+        margin-bottom: 4px;
+    }
+    .ad-discription-adress-map{
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        color: #3B82F6;
+    }
+}
+.ad-discription-describe{
+    .ad-discription-describe-title{
+            font-family: "Inter", sans-serif;
+            font-size: 24px;
+            color: #1E293B;
+            margin-bottom: 8px;
+    }
+    .ad-discription-describe-text{
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        color: #1E293B;
+
+    }
+}
+
+
