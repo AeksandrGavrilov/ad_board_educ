@@ -1,0 +1,27 @@
+
+<!-- <p-galleria 
+    [value]="images" 
+    
+    [containerStyle]="{ 'max-width': '640px' }" 
+    [numVisible]="5">
+        <ng-template pTemplate="item" let-item>
+            <img [src]="item.itemImageSrc" style="width: 100%;" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+            <div class="grid grid-nogutter justify-content-center">
+                <img [src]="item.thumbnailImageSrc" />
+            </div>
+        </ng-template>
+</p-galleria> -->
+
+    <p-galleria [value]="images" [numVisible]="5" [circular]="true" [showItemNavigators]="true" [showThumbnailNavigators]="false" [containerStyle]="{ 'max-width': '856px' }">
+        <ng-template pTemplate="item" let-item>
+            <img [src]="item.itemImageSrc" class="img" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+            <div class="grid grid-nogutter justify-content-center">
+                <img [src]="item.thumbnailImageSrc" class="galleria-mini-img"/>
+            </div>
+        </ng-template>
+    </p-galleria>
+

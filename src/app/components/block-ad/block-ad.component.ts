@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { AdCardComponent } from '../ad-card/ad-card.component';
 import { AdvertInfo } from '../../interface/advert-info';
 import { NgFor } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-block-ad',
   standalone: true,
-  imports: [AdCardComponent, NgFor],
+  imports: [AdCardComponent, NgFor, RouterLink],
   templateUrl: './block-ad.component.html',
   styleUrl: './block-ad.component.scss'
 })
